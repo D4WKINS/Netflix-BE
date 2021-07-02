@@ -1,0 +1,29 @@
+{
+  "name": "NETFLIX-BE",
+  "version": "1.0.0",
+  "description": "M5-D10: Solo project, implement BE for Netflix-React-App",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon  -r dotenv/config -e js ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D4WKINS/Netflix-BE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/D4WKINS/Netflix-BE/issues"
+  },
+  "homepage": "https://github.com/D4WKINS/Netflix-BE#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-list-endpoints": "^5.0.0",
+    "http-errors": "^1.8.0",
+    "nodemon": "^2.0.9"
+  }
+}
